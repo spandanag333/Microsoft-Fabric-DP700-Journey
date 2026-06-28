@@ -92,6 +92,8 @@ Purpose:
 
 Demonstrates that data can be transformed before storage.
 
+![Transformation Steps](Screenshots/tranformation-steps.png)
+
 ### Step 6
 
 Configured Destination.

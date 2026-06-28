@@ -15,29 +15,20 @@ The company wants to:
 Microsoft Fabric provides Dataflow Gen2 for ETL operations and Data Pipelines for orchestration.
 
 ## Architecture 
-```CSV File
-
+```
+CSV File
      │
-
      ▼
-
 Dataflow Gen2
-
-(Power Query Transformations)
-
+(Extract + Transform)
      │
-
      ▼
-
 Lakehouse
-
-Orders Table
-
+(Orders Table)
      ▲
-
      │
-
 Pipeline
+(Orchestration)
 ```
 
 

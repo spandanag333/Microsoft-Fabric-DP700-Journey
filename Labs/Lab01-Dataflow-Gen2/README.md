@@ -83,7 +83,7 @@ Purpose:
 
 Demonstrates that data can be transformed before storage.
 
-![Transformation Steps](Screenshots/tranformation-steps.png)
+![Transformation Steps](Screenshots/transformation-steps.png)
 
 ### Step 6
 

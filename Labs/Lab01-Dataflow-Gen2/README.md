@@ -1,5 +1,4 @@
-# Lab 1
-# Data Ingestion using Dataflow Gen2
+# Building an ETL Pipeline with Dataflow Gen2 and Pipeline Orchestration
 
 ## Objective
 The objective of this lab was to understand how Microsoft Fabric's Dataflow Gen2 can be used to ingest, transform, and load data into a Lakehouse. Additionally, the lab demonstrated how Data Pipelines can orchestrate Dataflow execution.
@@ -203,4 +202,6 @@ Answer
 
 When a Microsoft Fabric pipeline fails, the Monitoring Hub updates the pipeline status to Failed, and the specific Fail activity (if used) is designed to always return this failed status to provide descriptive error messages and codes.  Unlike legacy Azure Data Factory, Fabric does not have built-in, one-click alerting for failures; instead, users must explicitly manage notifications by configuring activities like Outlook or Teams to trigger on failure, or by using Data Activator to create alerts based on pipeline job events. 
 
+## Reflection
 
+Before completing this lab, I was confused about why both Dataflow Gen2 and Pipelines were needed. After building the solution, I understood that Dataflow Gen2 is responsible for ETL, while Pipelines orchestrate execution and automation. This clarified how Microsoft Fabric separates data processing from workflow management.

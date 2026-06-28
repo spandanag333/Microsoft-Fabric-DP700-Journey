@@ -207,13 +207,11 @@ When a Microsoft Fabric pipeline fails, the Monitoring Hub updates the pipeline 
 
 Before completing this lab, I was confused about why both Dataflow Gen2 and Pipelines were needed. After building the solution, I understood that Dataflow Gen2 is responsible for ETL, while Pipelines orchestrate execution and automation. This clarified how Microsoft Fabric separates data processing from workflow management.
 
-
 ## References
 
-This lab was completed as part of the official Microsoft Learn DP-700 learning path.
+This exercise is based on the official Microsoft Learn lab.
 
-**Official Lab:**
-https://microsoftlearning.github.io/mslearn-fabric/Instructions/Labs/05-dataflows-gen2.html
+- Microsoft Learn Lab: https://microsoftlearning.github.io/mslearn-fabric/Instructions/Labs/05-dataflows-gen2.html
+- Microsoft Learn Training: https://learn.microsoft.com/training/
 
-**Microsoft Learn:**
-https://learn.microsoft.com/training/
+> This repository documents my personal implementation, understanding, and notes from completing the lab. The explanations, screenshots, and reflections are my own.

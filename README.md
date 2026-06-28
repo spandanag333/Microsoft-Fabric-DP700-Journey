@@ -21,3 +21,19 @@ The goal of this repository is to understand Microsoft Fabric from both a techni
 - Build end-to-end Data Engineering solutions
 - Prepare for DP-700 Certification
 - Improve Azure Data Engineering skills
+
+## Progress Tracker
+
+| Topic                |     Status     |
+| -------------------- | :------------: |
+| Fabric Fundamentals  |        ✅       |
+| OneLake              |        ✅       |
+| Lakehouse            |        ✅       |
+| Dataflow Gen2        |        ✅       |
+| Pipelines            |        ✅       |
+| Spark                |        ⏳       |
+| Warehouse            |        ⏳       |
+| Real-Time Analytics  |        ⏳       |
+| CI/CD                |        ⏳       |
+| DP-700 Certification | 🎯 In Progress |
+

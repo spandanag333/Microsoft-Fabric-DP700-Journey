@@ -49,6 +49,8 @@ Purpose:
 
 A workspace acts as a container for all Fabric assets such as Lakehouses, Dataflows, Pipelines, and Notebooks.
 
+![Workspace Creation](Screenshots/workspace.png)
+
 ### Step 2
 
 Created a Lakehouse.
@@ -56,6 +58,8 @@ Created a Lakehouse.
 Purpose:
 
 The Lakehouse serves as centralized storage for structured and unstructured data.
+
+![Lakehouse Creation](Screenshots/lakehouse.png)
 
 ### Step 3
 
@@ -65,6 +69,7 @@ Purpose:
 
 Dataflow Gen2 provides a visual ETL interface using Power Query.
 
+
 ### Step 4
 
 Connected the source CSV.
@@ -72,6 +77,8 @@ Connected the source CSV.
 Purpose:
 
 Configured the CSV file as the source dataset.
+
+![Dataflow Source](Screenshots/dataflow-source.png)
 
 ### Step 5
 
@@ -101,6 +108,8 @@ Purpose:
 
 Store transformed data inside the Lakehouse.
 
+![Dataflow Destination](Screenshots/dataflow-destination.png)
+
 ### Step 7
 
 Created a Pipeline.
@@ -108,6 +117,8 @@ Created a Pipeline.
 Purpose:
 
 Orchestrate execution of Dataflow.
+
+![Pipeline](Screenshots/pipeline.png)
 
 ### Step 8
 
@@ -124,6 +135,8 @@ Executed Pipeline.
 Result:
 
 Data successfully loaded into the Orders table.
+
+![Pipeline Execution](Screenshots/pipeline-success.png)
 
 
 ## What I Learned
@@ -196,3 +209,5 @@ In a traditional ETL Approach model, data is transformed in a dedicated middlewa
 Answer
 
 When a Microsoft Fabric pipeline fails, the Monitoring Hub updates the pipeline status to Failed, and the specific Fail activity (if used) is designed to always return this failed status to provide descriptive error messages and codes.  Unlike legacy Azure Data Factory, Fabric does not have built-in, one-click alerting for failures; instead, users must explicitly manage notifications by configuring activities like Outlook or Teams to trigger on failure, or by using Data Activator to create alerts based on pipeline job events. 
+
+

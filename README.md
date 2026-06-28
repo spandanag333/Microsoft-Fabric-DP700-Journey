@@ -37,3 +37,5 @@ The goal of this repository is to understand Microsoft Fabric from both a techni
 | CI/CD                |        ⏳       |
 | DP-700 Certification | 🎯 In Progress |
 
+
+**Disclaimer**: This repository is a personal learning journal created while preparing for the Microsoft Certified: Fabric Data Engineer Associate (DP-700) certification. Some exercises are based on official Microsoft Learn labs. The code, documentation, architecture explanations, and reflections represent my own understanding and implementation, with links provided to the original Microsoft resources where applicable.

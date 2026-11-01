@@ -168,7 +168,6 @@ This lab helped me understand the architectural separation inside Microsoft Fabr
 
 Initially, I was confused about why both Dataflow and Pipeline were required. I learned that Dataflow performs the ETL process, whereas Pipelines automate and orchestrate the execution of those ETL processes.
 
-Recruiters love seeing honest reflections because they demonstrate learning rather than just task completion.
 
 ## Key Takeaways
 - Dataflow Gen2 is Microsoft's low-code ETL tool.
